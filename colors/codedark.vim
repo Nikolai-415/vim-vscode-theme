@@ -176,8 +176,13 @@ call <sid>hi('PmenuThumb', {}, s:cdPopupFront, 'none', {})
 call <sid>hi('Question', s:cdBlue, s:cdBack, 'none', {})
 call <sid>hi('Search', s:cdNone, s:cdSearch, 'none', {})
 call <sid>hi('SpecialKey', s:cdBlue, s:cdNone, 'none', {})
+
+" Active window
 call <sid>hi('StatusLine', s:cdFront, s:cdBlue, 'none', {})
-call <sid>hi('StatusLineNC', s:cdFront, s:cdBlue, 'none', {})
+
+" Inactive windows
+call <sid>hi('StatusLineNC', s:cdBack, s:cdSilver, 'none', {})
+
 call <sid>hi('TabLine', s:cdFront, s:cdTabOther, 'none', {})
 call <sid>hi('TabLineFill', s:cdFront, s:cdTabOutside, 'none', {})
 call <sid>hi('TabLineSel', s:cdFront, s:cdTabCurrent, 'none', {})
